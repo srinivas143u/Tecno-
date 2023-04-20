@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+:root{
+    --color1:#6495ED;
+    --background1:grey;
+    --color2:#ffffff;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Merriweather', serif;
+    
+}
+.nav-link:hover{
+    color: var(--color1);
+}
+.carousel-control-prev-icon{
+    display: none;
+}
+
+.carousel-control-next-icon{
+    display: none;
+}
+.top-level{
+    bottom: 80%;
+    left: 37%;
+}
+.top-level1{
+    bottom: 70%;
+    left: 28%;
+}
+.models .col-lg-4 img{
+    box-shadow: 0 10px 10px 0px gray;
+}
+.models .play-btn-wp{
+    background-image: url(img/global-left.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 250px;
+}
+.models .play-btn-wp{
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+.models .fas1{
+    padding-top: 50px;
+}
+
+.align{
+    bottom: 50%;
+    left: 45%;
+}
+.align1{
+    bottom: 40%;
+    left: 44.7%;
+}
+.align3{
+    bottom: 50%;
+    left: 43%;
+}
+.top-brand{
+    margin-top: 5rem;
+}
+.text-brand{
+    margin-top: 1rem;
+}
+.shadow-brand{
+    box-shadow: 0 10px 10px 2px gray;
+}
+.arrow{
+    position: fixed;
+    background-color: white;
+    border-radius: 50px;
+    height: 50px;
+    bottom: 40px;
+    right: 50px;
+    width: 50px;
+    text-decoration: none;
+    box-shadow: 0 7px 7px 2px gray;
+    text-align: center;
+    line-height: 50px;
+}
+.btn-brand{
+    position: absolute;
+    top: 250px;
+}
+.card-brand{
+    height: 380px;
+}
+.tablet .card:hover{
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+.down{
+    top: 35%;
+    left: 40%;
+    font-size: 50px;
+    color: var(--color2);
+}
+.down1{
+    top: 50%;
+}
+.phone .card:hover{
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+.phone img:hover{
+    transform: scale(1.1);
+}
+
+.support{
+    background-image: url(img/SUPPORT_03_2_0516_2_2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+
+.store{
+    background-image: url(img/pc1980_900.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 550px;
+}
+.store-brand{
+    margin-top: 15%;
+    color: var(--color2);
+}
+.store-brand1{
+    top: 70%;
+    left: 50px; color: var(--color2);
+}
+.store-brand2{
+    top: 75%;
+    left: 50px;
+    color: var(--color2);
+}
+.store-brand3{
+    top: 88%;
+    left: 50px;
+}
+.support1 .card{
+    background-image: url(img/SUPPORT_06_1600x600_0512.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    color: var(--color2);
+    border-radius: 20px;
+}
+.support1 .card1{
+    background-image: url(img/SUPPORT_07_1600x600_0512.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    color: var(--color2);
+    border-radius: 20px;
+}
+.support2{
+    background-image: url(img/SUPPORT_07_2000x720_pc_0512.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 400px;
+}
+@media (max-width:720px){
+     .models .play-btn-wp{
+        background-image: url(img/global-left.jpg);
+        max-width: 100%;
+     }
+     .pc.image img{
+        width: 100%;
+        height: 100px;
+     }
+    .support{
+        background-image: url(img/online-shop-faq_DT.avif);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        color: #ffffff;
+    }
+    .navbar1 .nav-link .fas{
+        display: none;
+    }
+    .navbar1 .nav-link{
+        margin-left:10px ;
+    }
+    .align{
+        left: 40%;
+    }
+    .align1{
+        display: none;
+    }
+    .align3{
+        left: 33%;
+    }
+  
+}
+@media (max-width:400px){
+    .align{
+        left: 38%;
+    }
+    .align1{
+        display: none;
+    }
+    .align3{
+        left: 30%;
+    }
+}
